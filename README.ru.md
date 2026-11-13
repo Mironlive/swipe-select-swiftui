@@ -26,7 +26,7 @@
 - **Дружит с твоим стейтом.** `onChange` вызывается один раз за жест.
 - **Без зависимостей.** Один Swift-пакет, iOS 15+.
 
-> Есть версии для [React Native](https://github.com/Mironlive/swipe-select) и [Flutter](https://pub.dev/packages/swipe_select).
+> Есть версии для [React Native](https://www.npmjs.com/package/@mironlive/react-native-swipe-select), [Flutter](https://pub.dev/packages/swipe_select) и [Jetpack Compose](https://github.com/Mironlive/swipe-select-compose).
 
 ## Установка
 

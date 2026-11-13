@@ -26,7 +26,7 @@
 - **Plays well with your state.** `onChange` fires once per gesture.
 - **No dependencies.** One Swift package, iOS 15+.
 
-> Also available for [React Native](https://github.com/Mironlive/swipe-select) and [Flutter](https://pub.dev/packages/swipe_select).
+> Also available for [React Native](https://www.npmjs.com/package/@mironlive/react-native-swipe-select), [Flutter](https://pub.dev/packages/swipe_select) and [Jetpack Compose](https://github.com/Mironlive/swipe-select-compose).
 
 ## Installation
 
