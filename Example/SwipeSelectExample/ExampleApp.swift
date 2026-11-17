@@ -135,6 +135,8 @@ struct GridDemo: View {
                                 }
                             }
                             .opacity(selected ? 0.75 : 1)
+                            .contentShape(Rectangle())
+                            .onTapGesture { if controller.isSelectionMode { controller.toggle(i) } }
                             .swipeSelectItem(i)
                     }
                 }
@@ -215,6 +217,8 @@ struct ChatDemo: View {
                             .padding(.horizontal, 12)
                             .padding(.vertical, 2)
                             .background(selected ? Color.accentColor.opacity(0.18) : .clear)
+                            .contentShape(Rectangle())
+                            .onTapGesture { if controller.isSelectionMode { controller.toggle(m.id) } }
                             .swipeSelectItem(m.id)
                             .id(m.id)
                         }
@@ -248,6 +252,8 @@ struct HorizontalDemo: View {
                                 .frame(width: 90 + CGFloat((i * 13) % 50), height: 160)
                                 .overlay { Text("\(i + 1)").font(.title2.bold()).foregroundStyle(.white) }
                                 .overlay(RoundedRectangle(cornerRadius: 14).stroke(selected ? Color.blue : .clear, lineWidth: 4))
+                                .contentShape(Rectangle())
+                                .onTapGesture { if controller.isSelectionMode { controller.toggle(i) } }
                                 .swipeSelectItem(i)
                         }
                     }
